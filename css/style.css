@@ -21,31 +21,114 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#262626;
 
 }
 
 /*TOPO*/
-header{
+.kenziegram-logo{
+	position: relative;
+	right: 35%;
+	margin-top: 2%;
 	
+}
+
+h1{
+	font-size: xx-large;
 }
 
 /*RODAPÉ*/
-footer{
+.footer-nav{
+display: flex;
+flex-flow: column wrap;
+}
 
+.copyright{
+	text-align: right;
 }
 
 /*PÁGINA INICIAL*/
-main{
-	
-}
+
 	main .profile-content{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 100px;
+		max-width: 935px;
 
 	}
 
 	main .highlighted-stories{
+    columns: 100px 2;
+	max-width: 22%;
+	margin-left: 6%;
 
+	
 	}
+
+	.highlight{
+
+		width: 77px;
+		border-radius: 100%;
+		border: 4px solid lightgray;
+		border-style: double;
+	}
+
+	.
 
 	main .profile-posts{
 
+	}
+
+	.postSize{
+		width: 293px;
+		height: 293px;
+	}
+
+	.posts{
+		columns: 293px 3;
+		padding: 5% 10%;
+	}
+
+	.menus{
+		display: flex;
+		justify-content: space-evenly;
+		padding: 0 20%;
+	}   
+
+	.kenzielogo{
+    border-radius: 100%;
+	border: 4px solid lightgray;
+	border-style: double;
+	width: 200%;
+	margin-left: 20%;
+	
+	
+
+	}
+
+	.profile-data{
+
+		columns: 50px 3;
+		
+	}
+
+	
+
+	.profile-info{
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: left;
+		margin-left: 30%;
+	}
+
+	hr{
+
+		border: 1px solid lightgrey;
+		width: 90%;
+		margin-top: 5%;
 	}

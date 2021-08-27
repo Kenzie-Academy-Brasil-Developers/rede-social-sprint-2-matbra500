@@ -4,6 +4,7 @@
 	<!-- META -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
 
 	<!-- TITLE -->
 	<title>Instagram</title>
@@ -20,7 +21,7 @@
 	<header>
 		<a href="https://www.instagram.com/" class="instagram-logo">
 			<figure>
-				<img src="img/logo.png" alt="Instagram logo">
+				<img class="kenziegram-logo" src="img/logo-kenziegram.png" alt="Instagram logo">
 			</figure>
 		</a>
 	</header>
@@ -34,25 +35,19 @@
 			<!-- FOTO DE PERFIL DO USUÁRIO -->
 			<section class="profile-photo">
 				<figure>
-					<img src="img/profile-photo.jpg" alt="Profile photo">
+					<img class="kenzielogo" src="img/profile-photo.jpg" alt="Profile photo">
 				</figure>
 			</section>
 
 			<!-- DETALHES/INFORMAÇÕES DO USUÁRIO -->
 			<section class="profile-info">
 				<h1>kenzieacademybr</h1>
-
-				<!-- POSTS/SEGUIDORES/SEGUINDO -->
-				<div class="profile-data">
-					<p><span>122</span> posts</p>
-					<p><span>2,589</span> followers</p>
-					<p><span>227</span> following</p>
-				</div>
-
+				
+				
 				<h2> Kenzie Academy Brasil </h2>
 				<ul>
 					<li>
-						<p>Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
+						<p class="text">Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
 					</li>
 					<li>
 						<p>Inscreva-se através do link.</p>
@@ -61,6 +56,12 @@
 						<a href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a>
 					</li>
 				</ul>
+				<!-- POSTS/SEGUIDORES/SEGUINDO -->
+				<div class="profile-data">
+					<p><span><strong>122</strong></span> posts</p>
+					<p><span><strong>589</strong></span> followers</p>
+					<p><span><strong>227</strong></span> following</p>
+				</div>
 			</section>
 		</article>
 
@@ -68,38 +69,43 @@
 		<article class="highlighted-stories">
 			<ul>
 				<li class="add-new-highlight">
-					<figure>
-						<img src="img/plus-sign.png" alt="Highlight">
-						<figcaption>New</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="img/highlight.jpg" alt="Highlight">
-						<figcaption>Open House</figcaption>
-					</figure>
+					<div class="stories">
+
+						<figure>
+							<img class="highlight" src="img/plus-sign.png" alt="Highlight">
+							<figcaption>New</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img class="highlight" src="img/highlight.jpg" alt="Highlight">
+							<figcaption>Open House</figcaption>
+						</figure>
+					</div>
 				</li>
 			</ul>
 		</article>
+
+		<hr>
 
 		<!-- POSTS DO USUÁRIO -->
 		<article class="profile-posts">
 
 			<!-- MENU DE POSTS -->
-			<nav>
-				<a href="#">Posts</a>
-				<a href="#">Igtv</a>
-				<a href="#">Tagged</a>
+			<nav class="menus">
+				<a href="#">POSTS</a>
+				<a href="#">IGTV</a>
+				<a href="#">TAGGED</a>
 			</nav>
 
 			<!-- LISTA DE POSTS -->
-			<ul>
+			<ul class="posts">
 
 				<!-- POST -->
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post1.jpg" alt="Post">
+							<img class="postSize" src="img/post1.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
@@ -108,7 +114,7 @@
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post2.jpg" alt="Post">
+							<img class="postSize" src="img/post2.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
@@ -117,7 +123,7 @@
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post3.jpg" alt="Post">
+							<img class="postSize" src="img/post3.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
@@ -126,7 +132,7 @@
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post4.jpg" alt="Post">
+							<img class="postSize" src="img/post4.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
@@ -135,7 +141,7 @@
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post5.jpg" alt="Post">
+							<img class="postSize" src="img/post5.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
@@ -144,7 +150,7 @@
 				<li>
 					<a href="#">
 						<figure>
-							<img src="img/post6.jpg" alt="Post">
+							<img class="postSize" src="img/post6.jpg" alt="Post">
 						</figure>
 					</a>
 				</li>
